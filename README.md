@@ -7,10 +7,10 @@ It is more efficient than the other tools since:
 2. It uses massdns to retrieve the records from the DNS servers.
 
 # Requirements
-- Python 3 
+- Python 3 + tldextract + cryptography
 - massdns
   
-You can run ```bash setup.sh``` to install the required python library (tldextract) and clone massdns.
+You can run ```bash setup.sh``` to install the required python library (tldextract) and clone + build massdns.
 
 # How to run
 ## Standalone generator
