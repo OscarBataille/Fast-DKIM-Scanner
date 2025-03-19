@@ -88,7 +88,7 @@ def parse_dns_answers(answers):
             extracted_p = match.group(1)  # Extract the value
             print(f' Extracted p-value: {extracted_p}')
         else:
-            print(" No p-value found.")
+            print(" No p-value found, it may be a null key.")
             break;
             
 
