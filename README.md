@@ -14,7 +14,7 @@ You can run ```bash setup.sh``` to install the required python library (tldextra
 
 # How to run
 ## Standalone generator
-To only run the DKIM key bruteforce list and save it to a file "output":
+To only run the DKIM key bruteforce list and save it to a file:
 ```python3 generate_dkim_selectors.py <domain> > dkim_selectors.txt ```
 
 ## Domain scanning
