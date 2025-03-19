@@ -19,5 +19,5 @@ To generate the bruteforce list:
 
 ## Domain scanning
 To bruteforce a domain's DKIM keys and detect weak RSA keys:
-```python3 generate_dkim_selectors.py <domain> ```
+```python3 get_dkim_from_domain.py <domain> ```
 
