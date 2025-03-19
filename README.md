@@ -9,6 +9,7 @@ It is more efficient than the other tools since:
 # Requirements
 - Python 3 
 - massdns
+  
 You can run ```bash setup.sh``` to install the required python library (tldextract) and clone massdns.
 
 # How to run
