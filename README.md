@@ -2,7 +2,7 @@
 This tool enables brute-forcing DKIM keys of a domain to identify weak keys or detect a lack of proper key rotation practices.
 This is a tool similar to https://github.com/vavkamil/dkimsc4n or https://github.com/ryancdotorg/dkimscan. 
 
-It is more efficient than the other tools since:
+It is more efficient than existing tools since:
 1. It generates a custom list of DKIM selectors based on the domain name.
 2. It uses massdns to retrieve the records from the DNS servers.
 
