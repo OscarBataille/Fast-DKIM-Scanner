@@ -177,7 +177,7 @@ def get_keys(domain = None):
         years.append(str(year).zfill(2))
 
     for year in years:
-        output.append(x)
+        output.append(year)
 
     ## Months from 2005
     months = []
@@ -201,8 +201,12 @@ def get_keys(domain = None):
 
     months = list(set(months))
 
+
+    
     for month in months:
-        output.append(x)
+        output.append(month)
+
+   
 
     # Step 5 Prepend Year to all selectors
     allSelectorsWithYear = []
@@ -234,15 +238,19 @@ def get_keys(domain = None):
 
     for x in allOtherSelectorsWithKeys:
         output.append(x)
+    
 
     # Make sure each entry is unique
     output = list(set(output))
+
+
     return output
 
 ## If standalone
 if __name__ == "__main__":
     # If the domain is submitted as the first parameter, then use it for the wordlist
     keys = get_keys(sys.argv[1] if len(sys.argv) >= 2 else None)
+
 
     for x in keys:
         print(x)
